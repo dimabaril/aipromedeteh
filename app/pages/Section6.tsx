@@ -1,3 +1,5 @@
+import Xarrow from "react-xarrows";
+
 export default function Section6() {
   return (
     <section className="w-full flex flex-col items-center min-h-screen justify-center px-4 py-12  overflow-hidden">
@@ -21,10 +23,16 @@ export default function Section6() {
         <div className="flex flex-col gap-12 relative">
           <div className="flex ">
             <div className="flex-1"></div>
-            <div className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap">
+            <div
+              className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap"
+              id="knowledge-base"
+            >
               Графово-векторная база данных и др.
             </div>
-            <div className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap">
+            <div
+              className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap"
+              id="emotion-gen"
+            >
               Генератор движения губ
             </div>
           </div>
@@ -35,26 +43,112 @@ export default function Section6() {
             <div className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]">
               Распознавание речи
             </div>
-            <div className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]">
+            <div
+              className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]"
+              id="llm-core"
+            >
               Мультиагентное LLM ядро
             </div>
-            <div className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]">
+            <div
+              className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]"
+              id="speech-gen"
+            >
               Генерация речи
             </div>
-            <div className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]">
+            <div
+              className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]"
+              id="video-gen"
+            >
               ИИ-видеогенератор
             </div>
           </div>
           <div className="flex ">
-            <div className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap">
+            <div
+              className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap"
+              id="vision-system"
+            >
               Система машинного зрения
             </div>
             <div className="flex-1"></div>
-            <div className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap">
+            <div
+              className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap"
+              id="emotion-engine"
+            >
               Движок эмоций
             </div>
           </div>
         </div>
+        {/* стрелки */}
+        <Xarrow
+          start="knowledge-base"
+          startAnchor={{ position: "bottom", offset: { x: -10, y: 0 } }}
+          end="llm-core"
+          endAnchor={{ position: "top", offset: { x: -10, y: 0 } }}
+          color="#cec1ff7d"
+          strokeWidth={1}
+          headSize={10}
+          // curveness={0}
+        />
+        <Xarrow
+          start="llm-core"
+          startAnchor={{ position: "top", offset: { x: 10, y: 0 } }}
+          end="knowledge-base"
+          endAnchor={{ position: "bottom", offset: { x: 10, y: 0 } }}
+          color="#cec1ff7d"
+          strokeWidth={1}
+          headSize={10}
+          // curveness={0}
+        />
+        <Xarrow
+          start="speech-gen"
+          startAnchor="top"
+          end="emotion-gen"
+          endAnchor={{ position: "bottom", offset: { x: -10, y: 0 } }}
+          color="#cec1ff7d"
+          strokeWidth={1}
+          headSize={10}
+          // curveness={0}
+        />
+        <Xarrow
+          start="emotion-gen"
+          startAnchor={{ position: "bottom", offset: { x: 10, y: 0 } }}
+          end="video-gen"
+          endAnchor="top"
+          color="#cec1ff7d"
+          strokeWidth={1}
+          headSize={10}
+          // curveness={0}
+        />
+        <Xarrow
+          start="vision-system"
+          startAnchor="top"
+          end="llm-core"
+          endAnchor={{ position: "bottom", offset: { x: 0, y: 10 } }}
+          color="#cec1ff7d"
+          strokeWidth={1}
+          headSize={10}
+          // curveness={0}
+        />
+        <Xarrow
+          start="speech-gen"
+          startAnchor={{ position: "bottom", offset: { x: 0, y: 10 } }}
+          end="emotion-engine"
+          endAnchor={{ position: "top", offset: { x: -10, y: 0 } }}
+          color="#cec1ff7d"
+          strokeWidth={1}
+          headSize={10}
+          // curveness={0}
+        />
+        <Xarrow
+          start="emotion-engine"
+          startAnchor={{ position: "top", offset: { x: 10, y: 0 } }}
+          end="video-gen"
+          endAnchor={{ position: "bottom", offset: { x: 0, y: 10 } }}
+          color="#cec1ff7d"
+          strokeWidth={1}
+          headSize={10}
+          // curveness={0}
+        />
         <div></div>
       </div>
     </section>
