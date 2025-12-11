@@ -1,14 +1,17 @@
+import Image from "next/image";
+
 export default function Section5() {
   return (
     <section className="w-full flex flex-col items-center min-h-screen justify-center px-4 py-12  overflow-hidden">
       <div className="w-full max-w-[1440px] min-h-[700px] flex flex-col relative p-10">
         {/* Фоновое изображение под градиентом */}
         <div className="absolute inset-0 -z-20 rounded-3xl overflow-hidden pointer-events-none">
-          <img
+          <Image
             src="/images/page5girl.png"
-            alt="bg"
-            className="w-full h-full object-cover opacity-70"
-            draggable="false"
+            alt="page5girl"
+            className="w-full h-full object-cover"
+            width={600}
+            height={600}
           />
         </div>
         {/* Градиент поверх изображения */}

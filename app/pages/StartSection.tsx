@@ -13,7 +13,7 @@ export default function StartSection() {
           <div className="flex-1">
             <Image
               src="/images/startgirl2.png"
-              alt="startgirl"
+              alt="startgirl2"
               width={500}
               height={500}
               className="h-full max-h-[450px] object-contain rounded-3xl"
@@ -21,17 +21,17 @@ export default function StartSection() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 text-base">
-          <div className="border-t border-l border-[#cec1ff7d] pt-4 pl-4">
+        <div className="flex flex-col md:flex-row text-base">
+          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4">
             Ведет диалог в реальном времени
           </div>
-          <div className="border-t border-l border-[#cec1ff7d] pt-4 pl-4">
+          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4">
             Работает локально, без интернета
           </div>
-          <div className="border-t border-l border-[#cec1ff7d] pt-4 pl-4">
+          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4">
             Внешность и голос настраиваются под ваш бренд
           </div>
-          <div className="border-t border-l border-[#cec1ff7d] pt-4 pl-4">
+          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4">
             Интегрируется в любые системы (CRM, веб, терминалы)
           </div>
         </div>

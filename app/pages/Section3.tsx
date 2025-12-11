@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 // app/pages/Section3.tsx
 export default function Section3() {
   return (
@@ -5,11 +7,18 @@ export default function Section3() {
       <div className="w-full max-w-[1440px] min-h-[700px] relative p-10">
         {/* Фоновое изображение под градиентом */}
         <div className="absolute inset-0 -z-20 rounded-3xl overflow-hidden pointer-events-none">
-          <img
+          {/* <img
             src="/images/page3girl.png"
             alt="bg"
             className="w-full h-full object-cover opacity-70"
             draggable="false"
+          /> */}
+          <Image
+            src="/images/page3girl.png"
+            alt="page3girl"
+            className="w-full h-full object-cover"
+            width={600}
+            height={600}
           />
         </div>
         {/* Градиент поверх изображения */}
