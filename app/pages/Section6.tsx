@@ -16,47 +16,47 @@ export default function Section6() {
         <div className="absolute top-10 bottom-10 w-px bg-[#cec1ff7d]" />
 
         <div className="p-10">
-          <button className="border border-white rounded-full px-6 py-2 text-white text-lg">
+          <button className="border border-white rounded-full px-6 py-2  text-3xl">
             Схема работы персонажа
           </button>
         </div>
-        <div className="flex flex-col gap-12 relative">
+        <div className="flex flex-col gap-12 relative text-2xl">
           <div className="flex ">
             <div className="flex-1"></div>
             <div
-              className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap"
+              className="flex-1 px-6 py-2  text-center whitespace-nowrap"
               id="knowledge-base"
             >
               Графово-векторная база данных и др.
             </div>
             <div
-              className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap"
+              className="flex-1 px-6 py-2  text-center whitespace-nowrap"
               id="emotion-gen"
             >
               Генератор движения губ
             </div>
           </div>
           <div className="flex justify-around items-center border-b border-[#cec1ff7d]">
-            <div className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]">
+            <div className=" px-6 py-2  whitespace-nowrap border-l border-[#cec1ff7d]">
               VAD
             </div>
-            <div className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]">
+            <div className=" px-6 py-2  whitespace-nowrap border-l border-[#cec1ff7d]">
               Распознавание речи
             </div>
             <div
-              className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]"
+              className=" px-6 py-2  whitespace-nowrap border-l border-[#cec1ff7d]"
               id="llm-core"
             >
               Мультиагентное LLM ядро
             </div>
             <div
-              className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]"
+              className=" px-6 py-2  whitespace-nowrap border-l border-[#cec1ff7d]"
               id="speech-gen"
             >
               Генерация речи
             </div>
             <div
-              className=" px-6 py-2 text-white text-base whitespace-nowrap border-l border-[#cec1ff7d]"
+              className=" px-6 py-2  whitespace-nowrap border-l border-[#cec1ff7d]"
               id="video-gen"
             >
               ИИ-видеогенератор
@@ -64,14 +64,14 @@ export default function Section6() {
           </div>
           <div className="flex ">
             <div
-              className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap"
+              className="flex-1 px-6 py-2  text-center whitespace-nowrap"
               id="vision-system"
             >
               Система машинного зрения
             </div>
             <div className="flex-1"></div>
             <div
-              className="flex-1 px-6 py-2 text-white text-center text-base whitespace-nowrap"
+              className="flex-1 px-6 py-2  text-center whitespace-nowrap"
               id="emotion-engine"
             >
               Движок эмоций

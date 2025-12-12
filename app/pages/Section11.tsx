@@ -22,9 +22,9 @@ export default function Section11() {
               "linear-gradient(rgba(123,0,180,0.1) 0%, rgba(123,0,180,0.05) 20%, rgba(123,0,180,0.2) 100%)",
           }}
         />
-        <div className="flex-1 grid grid-cols-[1fr_3fr_1fr] grid-rows-[4fr_3fr] text-lg text-white relative">
+        <div className="flex-1 grid grid-cols-[1fr_3fr_1fr] grid-rows-[4fr_3fr] text-lg  relative">
           <div className="p-10 flex flex-col justify-between border-l border-b border-r border-[#cec1ff7d]">
-            <button className="self-start border border-white rounded-full px-6 py-2">
+            <button className="self-start border border-white rounded-full px-6 py-2 text-3xl">
               Конкуренты
             </button>
             <div className="bg-[#5A3B5D]/30 rounded-2xl p-5 self-end">
@@ -49,7 +49,7 @@ export default function Section11() {
             </div>
           </div>
           <div className="p-10 border-b border-r border-[#cec1ff7d] flex justify-end">
-            <button className="self-start border border-white rounded-full px-6 py-2">
+            <button className="self-start border border-white rounded-full px-6 py-2 text-3xl">
               Наши плюсы
             </button>
           </div>
@@ -79,7 +79,7 @@ export default function Section11() {
           </div>
           <div className="p-10 border-r border-[#cec1ff7d]"></div>
 
-          <div className="absolute bottom-10 right-10 bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl p-8 text-white text-lg z-10">
+          <div className="absolute bottom-10 right-10 bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl p-8  text-lg z-10">
             <ul className="list-disc pl-5 flex flex-col gap-10">
               <li>Локальная работа без интернета</li>
               <li>Настоящие эмоции и живое поведение</li>

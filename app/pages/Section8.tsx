@@ -11,9 +11,9 @@ export default function Section8() {
           }}
         />
 
-        <div className="flex-1 grid grid-cols-3 grid-rows-[2fr_2fr_1fr] text-lg text-white">
+        <div className="flex-1 grid grid-cols-3 grid-rows-[2fr_2fr_1fr] text-2xl ">
           <div className="p-10 flex flex-col justify-between border-l border-b border-r border-[#cec1ff7d]">
-            <button className="self-start border border-white rounded-full px-6 py-2">
+            <button className="self-start border border-white rounded-full px-6 py-2 text-3xl">
               Гибкость и интеграции
             </button>
             <div className="self-end">Модульная архитектура</div>

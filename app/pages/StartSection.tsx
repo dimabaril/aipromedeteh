@@ -4,9 +4,9 @@ export default function StartSection() {
   return (
     <section className="w-full mx-auto flex flex-col  items-center min-h-screen justify-around">
       <div></div>
-      <div className="w-full max-w-[1200px] h-[600px] bg-linear-to-b from-transparent to-[rgba(123,0,180,0.2)] rounded-3xl p-10 text-white flex flex-col justify-between">
+      <div className="w-full max-w-[1200px] h-[600px] bg-linear-to-b from-transparent to-[rgba(123,0,180,0.2)] rounded-3xl p-10  flex flex-col justify-between">
         <div className="flex">
-          <h1 className="flex-1 text-2xl md:text-3xl leading-tight">
+          <h1 className="flex-1 text-4xl leading-tight">
             AI-персонаж — это человеческий голосовой интерфейс с внешностью и
             персональностью
           </h1>
@@ -21,7 +21,7 @@ export default function StartSection() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row text-base">
+        <div className="flex flex-col md:flex-row text-xl">
           <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4">
             Ведет диалог в реальном времени
           </div>
@@ -36,11 +36,11 @@ export default function StartSection() {
           </div>
         </div>
       </div>
-      <div className="text-white rounded-full py-3 px-10 text-base backdrop-blur-md bg-[#2B2142]/50">
+      <div className=" rounded-full py-3 px-10 text-3xl backdrop-blur-md bg-[#2B2142]/50">
         Персонаж может быть любой внешности — любой расы, пола, возраста, стиля.
         Полная кастомизация
       </div>
-      <div className="w-full max-w-[1400px] flex flex-col md:flex-row justify-center text-white text-base px-10">
+      <div className="w-full flex flex-col md:flex-row justify-center  text-lg px-10">
         <div className="border border-b-0 border-white p-2 pb-0">
           Решения для help desk
         </div>

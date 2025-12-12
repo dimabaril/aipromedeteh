@@ -28,7 +28,7 @@ export default function Section9() {
         <div className="absolute top-10 bottom-10 left-4/5  w-px bg-[#cec1ff7d] -z-10" />
 
         <div className="p-10">
-          <button className="border border-white rounded-full  px-6 py-2 text-white text-lg">
+          <button className="border border-white rounded-full  px-6 py-2  text-3xl">
             Что важно для качественного внедрения
           </button>
         </div>
@@ -38,11 +38,11 @@ export default function Section9() {
 
           <div className="grid grid-cols-1 md:grid-cols-3">
             <div className="flex flex-col gap-10 p-10 bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl">
-              <h2 className="text-3xl text-white">
+              <h2 className="text-4xl ">
                 Архитектура решения позволяет развернуть персонажа в сетевом
                 режиме
               </h2>
-              <div className="text-2xl text-white">
+              <div className="text-2xl ">
                 Мы принципиально работаем на open source решениях и дорабатываем
                 их для наших целей
               </div>

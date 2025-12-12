@@ -18,36 +18,38 @@ export default function Section4() {
         <div className="absolute left-10 right-10 top-1/2  h-px bg-[#cec1ff7d] -z-10" />
         <div className="absolute top-10 bottom-10 left-1/2  w-px bg-[#cec1ff7d] -z-10" />
         <div className="p-10">
-          <button className="border border-white rounded-full px-6 py-2 text-white text-lg ">
+          <button className="border border-white rounded-full px-6 py-2  text-3xl tracking-tighter">
             Возможности применения
           </button>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-8 px-10">
-          <div className="bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl px-8 py-6 text-white text-xl w-full text-left flex flex-col justify-between z-10">
-            <div className="font-bold mb-2">Event & выставки</div>
-            <ul className="list-disc pl-5">
+          <div className="bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl px-8 py-6   w-full text-left flex flex-col justify-between z-10">
+            <div className=" mb-2 text-3xl">Event & выставки</div>
+            <ul className="list-disc pl-5 text-2xl">
               <li>Ассистент на стенде</li>
               <li>Ведущий</li>
               <li>Гид</li>
             </ul>
           </div>
-          <div className="bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl px-8 py-6 text-white text-xl w-full text-left flex flex-col justify-between z-10  md:-translate-y-1/2">
-            <div className="font-bold mb-2">Образование & сервис</div>
-            <ul className="list-disc pl-5">
+          <div className="bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl px-8 py-6   w-full text-left flex flex-col justify-between z-10  md:-translate-y-1/2">
+            <div className=" mb-2 text-3xl">Образование & сервис</div>
+            <ul className="list-disc pl-5 text-2xl">
               <li>Лектор</li>
               <li>Собеседник</li>
               <li>Образовательные платформы</li>
             </ul>
           </div>
-          <div className="bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl px-8 py-6 text-white text-xl w-full text-left flex flex-col justify-between z-10 ">
-            <div className="font-bold mb-2">
+          <div className="bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl px-8 py-6   w-full text-left flex flex-col justify-between z-10 ">
+            <div className=" mb-2 text-3xl">
               Веб-версия персонажа для стендов (сайтов)
             </div>
-            <div>Интеграции в CRM и другие внутренние системы</div>
+            <div className="pt-1 text-2xl">
+              Интеграции в CRM и другие внутренние системы
+            </div>
           </div>
-          <div className="bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl px-8 py-6 text-white text-xl w-full text-left flex flex-col justify-between md:col-start-2 z-10  md:-translate-y-1/4">
-            <div className="font-bold mb-2">Онлайн-интеграции</div>
-            <ul className="list-disc pl-5">
+          <div className="bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl px-8 py-6   w-full text-left flex flex-col justify-between md:col-start-2 z-10  md:-translate-y-1/4">
+            <div className=" mb-2 text-3xl">Онлайн-интеграции</div>
+            <ul className="list-disc pl-5 text-2xl">
               <li>Медицинские центры</li>
               <li>Коуч-копилот</li>
               <li>Графические интерфейсы</li>
