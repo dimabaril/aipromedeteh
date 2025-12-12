@@ -11,8 +11,9 @@ import Section6 from "./pages/Section6";
 import Section7 from "./pages/Section7";
 import Section8 from "./pages/Section8";
 import Section9 from "./pages/Section9";
-// import Section10 from "./pages/Section10";
+import Section10 from "./pages/Section10";
 // import Section11 from "./pages/Section11";
+// import Section12 from "./pages/Section12";
 import FinishSection from "./pages/FinishSection";
 
 const sections = [
@@ -25,8 +26,9 @@ const sections = [
   Section7,
   Section8,
   Section9,
-  // Section10,
+  Section10,
   // Section11,
+  // Section12,
   FinishSection,
 ];
 

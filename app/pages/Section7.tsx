@@ -35,7 +35,7 @@ export default function Section7() {
           <div className="top-1/2 right-0 left-0 absolute bg-[#cec1ff7d] h-px" />
           <div className="flex justify-center items-center bg-[#5A3B5D]/30 backdrop-blur-xs p-10 rounded-3xl w-full">
             <div className="flex flex-col">
-              <h2 className="font-bold text-white text-2xl md:text-8xl">90%</h2>
+              <h2 className=" text-white text-2xl md:text-8xl">90%</h2>
               <div className="text-white text-2xl md:text-3xl">
                 успеха — правильно написанный сценарий
               </div>

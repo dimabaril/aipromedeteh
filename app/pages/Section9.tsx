@@ -38,7 +38,7 @@ export default function Section9() {
 
           <div className="grid grid-cols-1 md:grid-cols-3">
             <div className="flex flex-col gap-10 p-10 bg-[#5A3B5D]/30 backdrop-blur-xs rounded-3xl">
-              <h2 className="text-3xl font-bold text-white">
+              <h2 className="text-3xl text-white">
                 Архитектура решения позволяет развернуть персонажа в сетевом
                 режиме
               </h2>

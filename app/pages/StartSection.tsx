@@ -6,7 +6,7 @@ export default function StartSection() {
       <div></div>
       <div className="w-full max-w-[1200px] h-[600px] bg-linear-to-b from-transparent to-[rgba(123,0,180,0.2)] rounded-3xl p-10 text-white flex flex-col justify-between">
         <div className="flex">
-          <h1 className="flex-1 text-2xl md:text-3xl font-bold leading-tight">
+          <h1 className="flex-1 text-2xl md:text-3xl leading-tight">
             AI-персонаж — это человеческий голосовой интерфейс с внешностью и
             персональностью
           </h1>
