@@ -17,7 +17,7 @@ export default function FinishSection() {
         <div className="grid grid-cols-[1fr_2fr_3fr] grid-rows-[2fr_1fr] h-full w-full gap-0 relative z-0">
           {/* 1 строка */}
           <div className="flex p-10 border-[#cec1ff7d] border-b border-r items-start">
-            <h1 className="border px-6 py-2 rounded-full">Контакты</h1>
+            <h1 className="border px-6 py-2 rounded-full text-lg">Контакты</h1>
           </div>
           <div className="flex p-10 items-center justify-center border-[#cec1ff7d] border-b">
             <Image
@@ -41,8 +41,8 @@ export default function FinishSection() {
           {/* 2 строка */}
           <div className="border-[#cec1ff7d] border-r"></div>
           <div className="p-10 flex flex-col">
-            <div className="">+7 925 735 3351</div>
-            <div className="">Артур Ширкин</div>
+            <div className="text-2xl">+7 925 735 3351</div>
+            <div className="text-2xl">Артур Ширкин</div>
           </div>
         </div>
       </div>
