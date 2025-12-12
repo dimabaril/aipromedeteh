@@ -4,7 +4,7 @@ export default function Home() {
   // Логика типа фона теперь внутри ScrollPages
   return (
     <div className="flex flex-col items-center">
-      <header className="w-full max-w-[1440px] text-2xl  text-center flex justify-between fixed py-30 px-5">
+      <header className="w-full max-w-[1440px] text-2xl  text-center flex justify-between fixed py-20 px-5">
         <div className="flex gap-4">
           <svg
             className="w-6 h-6 sm:w-7 sm:h-7"

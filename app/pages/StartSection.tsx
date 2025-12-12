@@ -22,16 +22,16 @@ export default function StartSection() {
         </div>
 
         <div className="flex flex-col md:flex-row text-xl">
-          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4">
+          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4 pb-2">
             Ведет диалог в реальном времени
           </div>
-          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4">
+          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4 pb-2">
             Работает локально, без интернета
           </div>
-          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4">
+          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4 pb-2">
             Внешность и голос настраиваются под ваш бренд
           </div>
-          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4">
+          <div className="flex-1 border-t border-l border-[#cec1ff7d] p-4 pb-2">
             Интегрируется в любые системы (CRM, веб, терминалы)
           </div>
         </div>
