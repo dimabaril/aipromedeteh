@@ -63,11 +63,10 @@ export default function Section3() {
           </div>
         </div>
         {/* Горизонтальная линия */}
-        <div className="border-t border-[#cec1ff7d] relative"></div>
-        <div className="text-white text-base max-w-3xl p-10">
-          Наш опыт в графике и AI позволил нам создать собственную технологию,
-          основанную на open-source ядре с нашими важными доработками. У нас
-          также есть опыт реализации креативных и рекламных проектов
+        <div className="border-t border-[#cec1ff7d]"></div>
+        <div className="text-white rounded-full py-3 px-10 my-10 mx-auto w-fit text-base bg-[#ffffff]/15">
+          Новый вид интерфейса, который максимально естественнен и удобен для
+          пользователя — общение голосом
         </div>
       </div>
     </section>
