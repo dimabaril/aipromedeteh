@@ -1,4 +1,5 @@
 import { Golos_Text, Roboto } from "next/font/google";
+import MobileBlocker from "./components/MobileBlocker";
 import "./globals.css";
 
 const golosText = Golos_Text({
@@ -24,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${golosText.variable} ${roboto.variable} antialiased`}>
+        <MobileBlocker />
         {children}
       </body>
     </html>
