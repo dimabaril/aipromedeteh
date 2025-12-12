@@ -7,7 +7,7 @@ export default function Section4() {
           className="absolute inset-0 -z-10 rounded-3xl"
           style={{
             background:
-              "linear-gradient(rgba(123,0,180,0.1) 0%, rgba(123,0,180,0.05) 20%, rgba(123,0,180,0.2) 100%)",
+              "radial-gradient(circle at 50% 20%, rgba(0,0,0,0.5) 0%, rgba(123,0,180,0.3) 100%)",
           }}
         />
         {/* Вертикальная линия слева */}
